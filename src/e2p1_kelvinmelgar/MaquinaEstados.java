@@ -147,7 +147,7 @@ public final class MaquinaEstados {
             }else{
                 
                 
-                return cadena + "\n\nRECHAZADO";
+                return cadena + "\nRECHAZADO";
                 
             }
             
@@ -158,10 +158,10 @@ public final class MaquinaEstados {
         //Condicion para ver si es aceptada
         if(this.getEstados_aceptacion().contains(this.getEstado_actual())){
             
-            cadena += "\n\nACEPTADA";
+            cadena += "\nACEPTADO";
             
         }else
-            cadena += "\n\nACEPTADA";
+            cadena += "\nRECHAZADO";
         
         
         return cadena;    

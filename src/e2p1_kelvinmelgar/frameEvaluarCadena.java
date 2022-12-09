@@ -79,7 +79,6 @@ public class frameEvaluarCadena extends JDialog implements ActionListener{
         txtResultado.setFont(new Font("Consolas", Font.PLAIN, 15));
         txtResultado.setPreferredSize(new Dimension(400,370));
         txtResultado.setEditable(false);
-        txtResultado.setDragEnabled(true);
         pl_campos.add(txtResultado);        
 
         
