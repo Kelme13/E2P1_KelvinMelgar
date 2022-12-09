@@ -43,7 +43,7 @@ public class frameEvaluarCadena extends JDialog implements ActionListener{
         
         this.maquina = maquina;
         
-        this.setSize(450, 500);
+        this.setSize(450, 700);
         this.setTitle("Maquina Estados");
         this.setLocationRelativeTo(null);
         this.setLayout(new BorderLayout());
@@ -77,8 +77,9 @@ public class frameEvaluarCadena extends JDialog implements ActionListener{
         
         txtResultado = new JTextArea();
         txtResultado.setFont(new Font("Consolas", Font.PLAIN, 15));
-        txtResultado.setPreferredSize(new Dimension(400,150));
+        txtResultado.setPreferredSize(new Dimension(400,370));
         txtResultado.setEditable(false);
+        txtResultado.setDragEnabled(true);
         pl_campos.add(txtResultado);        
 
         

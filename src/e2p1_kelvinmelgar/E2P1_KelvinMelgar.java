@@ -55,10 +55,10 @@ public class E2P1_KelvinMelgar {
          @Override
             public void actionPerformed(ActionEvent e) {
                 
-                if(maquina != null){ //significa que esta vacia
+                //if(maquina != null){ //significa que esta vacia
                     
                     new frameEvaluarCadena(menu, true, maquina);
-                }
+               // }
                 
             }
     };
